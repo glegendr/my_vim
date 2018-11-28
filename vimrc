@@ -1,6 +1,8 @@
 syntax on
 colorscheme Tomorrow-Night
 set nu
+autocmd InsertEnter * :set norelativenumber
+autocmd InsertLeave * :set relativenumber
 set ruler
 set ignorecase
 set smartcase
