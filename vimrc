@@ -1,8 +1,8 @@
 syntax on
 colorscheme Tomorrow-Night
 set nu
-autocmd InsertEnter * :set norelativenumber
-autocmd InsertLeave * :set relativenumber
+autocmd InsertLeave * :set norelativenumber
+autocmd InsertEnter * :set relativenumber
 set ruler
 set ignorecase
 set smartcase
@@ -13,5 +13,5 @@ match OverLength /\%81v.\+/
 set hlsearch
 nohlsearch
 set backspace=indent,eol,start
-set listchars=tab:>-,trail:·
+set listchars=tab:€-,trail:·
 set list
