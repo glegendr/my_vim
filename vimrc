@@ -9,8 +9,7 @@ set smartcase
 set smartindent
 set autoindent
 set showcmd
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+set colorcolumn=80
 set hlsearch
 nohlsearch
 set backspace=indent,eol,start
