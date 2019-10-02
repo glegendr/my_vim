@@ -15,3 +15,6 @@ nohlsearch
 set backspace=indent,eol,start
 set listchars=tab:᚛ ,trail:·
 set list
+call plug#begin('~/.vim/plugged')
+Plug 'rust-lang/rust.vim'
+call plug#end()
